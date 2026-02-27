@@ -9,9 +9,19 @@
       "distribution": "internal"
     },
     "preview": {
+      "android": {
+        "buildType": "apk"
+      },
       "distribution": "internal"
     },
     "production": {
+      "android": {
+        "buildType": "apk",
+        "image": "latest"
+      },
+      "ios":{
+        "image": "latest" 
+      },
       "autoIncrement": true
     }
   },

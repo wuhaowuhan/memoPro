@@ -12,12 +12,12 @@ import { getFirestore, enableIndexedDbPersistence } from 'firebase/firestore';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-  authDomain: "your-project.firebaseapp.com",
-  projectId: "your-project-id",
-  storageBucket: "your-project.appspot.com",
-  messagingSenderId: "xxxxxxxxxxxx",
-  appId: "1:xxxxxxxxxxxx:web:xxxxxxxxxxxxxxxxxxxxxx"
+  apiKey: "AIzaSyA5GZu1ikln_B-GkD_mJXefFX8Uyush7KE",
+  authDomain: "memopro-7007b.firebaseapp.com",
+  projectId: "memopro-7007b",
+  storageBucket: "memopro-7007b.firebasestorage.app",
+  messagingSenderId: "134604445521",
+  appId: "1:134604445521:web:5af641a642280fab8fe570"
 };
 
 const app = initializeApp(firebaseConfig);
